@@ -29,7 +29,7 @@ AC_MSG_CHECKING([for a supported version of g++])
 gxx_version=`${CXX} --version | head -n 1`
 
 case "${gxx_version}" in
-     *4.*)
+     *5.*)
 	AC_MSG_RESULT([ok (${gxx_version})])
 	;;
      *)
